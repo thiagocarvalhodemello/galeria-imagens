@@ -57,10 +57,30 @@ a:hover{
     border-bottom: 1px solid white;
 }
 
-.pagina-img{
+.url-img{
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 15px;
     width: 100%;
+}
+@media (max-width: 360px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+    }
+    section{
+        width: 90%;
+        height: 80%;
+        margin-top: 10%;
+    }
+    .content img:hover{
+        width: 80%;
+    }
+    .url-img{
+        
+        margin: 5% 0 0 5%;
+    }
 }
